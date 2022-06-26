@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+  <script src="./index.js" defer></script>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+<body>
+  <main>
+    <div class="card">
+      <div class="card-header grid grid-1x2 bg-primary border-radius">
+        <div class="balance flex">
+          <span class="balance-title clr-pale">My balance</span>
+          <span class="balance-number bold clr-pale">$921.48</span>
+        </div>
+          <img class="card-logo" src="./images/logo.svg" alt="Brand logo">
+      </div>
+
+      <div class="card-body grid border-radius bg-pale-orange">
+        <div class="card-title">
+          <h1>Spending - Last 7 Days</h1>
+        </div>
+        <div class="charts">
+        </div>
+
+        <div class="card-footer grid grid-1x2">
+          <div class="total">
+            <span class="footer-subheading">Total this month</span>
+            <span class="footer-content">$478.33</span>
+          </div>
+          <div class="last-month">
+            <span class="footer-content">+2.4%</span>
+            <span class="footer-subheading">from last month</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="attribution">
+    <a href="https://www.instagram.com/christopheriilajom/" target="_blank">Coded by Christopher II</a>
+  </footer>
+
+  <!-- My balance
+  $921.48
+
+  Spending - Last 7 days
+
+  mon
+  tue
+  wed
+  thu
+  fri
+  sat
+  sun
+
+  Total this month
+  $478.33
+
+  +2.4%
+  from last month
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
